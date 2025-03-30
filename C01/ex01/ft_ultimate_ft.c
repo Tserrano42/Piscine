@@ -6,11 +6,9 @@
 /*   By: tserrano <tserrano@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/30 18:58:52 by tserrano          #+#    #+#             */
-/*   Updated: 2025/03/30 19:15:30 by tserrano         ###   ########.fr       */
+/*   Updated: 2025/03/30 20:03:05 by tserrano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_ultimate_ft(int *********nbr)
 {

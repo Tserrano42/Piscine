@@ -6,11 +6,9 @@
 /*   By: tserrano <tserrano@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/30 19:28:39 by tserrano          #+#    #+#             */
-/*   Updated: 2025/03/30 19:44:30 by tserrano         ###   ########.fr       */
+/*   Updated: 2025/03/30 20:03:08 by tserrano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_div_mod(int a, int b, int *div, int *mod)
 {

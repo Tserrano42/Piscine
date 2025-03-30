@@ -6,11 +6,9 @@
 /*   By: tserrano <tserrano@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/30 19:17:11 by tserrano          #+#    #+#             */
-/*   Updated: 2025/03/30 19:27:35 by tserrano         ###   ########.fr       */
+/*   Updated: 2025/03/30 20:03:06 by tserrano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_swap(int *a, int *b)
 {
