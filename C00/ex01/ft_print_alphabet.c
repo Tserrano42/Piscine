@@ -6,7 +6,7 @@
 /*   By: tserrano <tserrano@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/07 21:16:13 by tserrano          #+#    #+#             */
-/*   Updated: 2025/03/07 21:30:17 by tserrano         ###   ########.fr       */
+/*   Updated: 2025/03/09 22:01:16 by tserrano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@ void	ft_print_alphabet(void)
 {
 	char	c;
 
-	c = 97;
-	while (c < 123)
+	c = 'a';
+	while (c <= 'z')
 	{
 		write(1, &c, 1);
 		c++;
