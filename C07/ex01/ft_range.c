@@ -6,7 +6,7 @@
 /*   By: tserrano <tserrano@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/10 19:03:13 by tserrano          #+#    #+#             */
-/*   Updated: 2025/05/10 19:31:59 by tserrano         ###   ########.fr       */
+/*   Updated: 2025/05/17 19:02:59 by tserrano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,8 @@ int	*ft_range(int min, int max)
 	index = -1;
 	save_min = min - 1;
 	my_variable = malloc(sizeof(int) * (max - min));
+	if (!my_variable)
+		return (NULL);
 	if (min < max)
 	{
 		while (++save_min < max)
